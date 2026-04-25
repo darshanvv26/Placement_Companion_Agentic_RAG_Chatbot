@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.env
+
+# Node.js (Frontend stuff - can be moved to dedicated Docker if needed)
+frontend/node_modules/
+frontend/dist/
+frontend/.npm/
+
+# Data and Artifacts (Only keep what's needed for deployment)
+# NOTE: We keep 'chroma_db' and 'chunks_output.json' so the RAG works.
+# But hide OCR folders if they are too big and already processed.
+OCR_mmd_Collected/
+Placements_Data/
+*.pptx
+*.docx
+*.pdf
+
+# Git
+.git/
+.gitignore
+
+# OS
+.DS_Store
+Thumbs.db
