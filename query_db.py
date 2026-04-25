@@ -5,7 +5,7 @@ Test script to verify retrieval from the ChromaDB vector store.
 """
 
 import chromadb
-from chromadb.utils import embedding_functions
+from chromadb.utils import embedding_functions 
 
 CHROMA_PATH = "./chroma_db"
 COLLECTION_NAME = "placement_chunks"
