@@ -10,7 +10,7 @@ Usage:
 """
 
 import os
-import json
+import json 
 from pathlib import Path
 import chromadb
 from chromadb.utils import embedding_functions
