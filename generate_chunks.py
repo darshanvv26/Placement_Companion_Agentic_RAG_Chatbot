@@ -6,7 +6,7 @@ Uses pre-processed OCR results from OCR_mmd_collected/ for image data.
 
 Supported file types:
   .txt   → raw text
-  .docx  → python-docx
+  .docx  → python-docx 
   .pdf   → pdfplumber
   .pptx  → python-pptx
   .mmd   → Markdown (from OCR_mmd_collected)
