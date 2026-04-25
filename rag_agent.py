@@ -4,7 +4,7 @@ import os
 try:
     from dotenv import load_dotenv
     load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"), override=True)
-except ImportError:
+except ImportError: 
     pass  # python-dotenv not installed, use system env vars
 
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
