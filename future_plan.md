@@ -4,7 +4,7 @@ Integrating the **Placement Chatbot** with **n8n** will transform it into a full
 
 ---
 
-## 🏗️ 1. Core Integration Architecture
+## 🏗️ 1. Core Integration Architecture 
 The FastAPI backend will serve as the "Brain," while n8n manages external communications and triggers.
 
 ### **A. n8n as the Unified Messaging Gate (Multi-Channel Support)**
