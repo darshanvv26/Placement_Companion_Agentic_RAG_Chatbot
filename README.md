@@ -1,6 +1,6 @@
 # MSIS Placement Chatbot 🎓🤖
 
-A premium, Gemini-style AI assistant for MSIS (Manipal School of Information Science) students to navigate their placement journey. Built with FastAPI, LangGraph, ChromaDB, and React.
+A premium, Gemini-style AI assistant for MSIS (Manipal School of Information Science) students to navigate their placement journey. Built with FastAPI, LangGraph, ChromaDB, and React. 
 
 ## ✨ Features
 
